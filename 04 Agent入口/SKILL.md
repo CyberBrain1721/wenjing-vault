@@ -271,6 +271,7 @@ Session 结束时：更新 Current Context + 同步开发索引（如有新增 C
 | 风格提取 Convention | `06 文境开发（Development）/02 开发规范(Convention)/11 风格提取 Convention.md` |
 | 格式化标准 | `references/formatting-standard.md` — 成卷正文格式强制规范 |
 | Bootstrap | `scripts/bootstrap.py` — 一键创建目录+文档+插件+配置 |
+| 协作指南 | `04 Agent入口/文境协作指南.md` — clone/sync/Agent 自更新 |
 | Canvas 生成 | `E:\hermes\skills\productivity\wenjing\scripts\generate_canvas.py` — 生成 Obsidian Canvas 速览（不在本 skill 目录下，`skill_view` 无法访问，需用 `terminal` 直接运行。如脚本扫描路径不对，手动 `write_file` 重写整个 `.canvas`） |
 | 看板刷新 | `E:\hermes\skills\productivity\wenjing\scripts\refresh_dashboard.py` — 更新 HTML 看板+Canvas 速览（同上，需 `terminal` 直接运行） |
 | cua-driver 抓取中文平台 | `references/cua-scraping-chinese-platforms.md` — 知乎/简书/百家号自动化抓取方案 |
