@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"inbox-group","type":"group","x":580,"y":-870,"width":520,"height":770,"color":"#9DA9B8","label":"藏阁 Inbox（27）"},
+		{"id":"volumes-group","type":"group","x":-100,"y":-870,"width":610,"height":370,"color":"#A8B8A8","label":"最新成卷（共19卷）"},
+		{"id":"diange-group","type":"group","x":-100,"y":-440,"width":610,"height":340,"color":"#B8ADA8","label":"典阁 Library"},
+		{"id":"diange-content","type":"text","text":"##### 最新入典\n\n→ [[【组】沉默的将军、军师与孩子]]\n→ [[【人】被共情坏了的将军的孩子]]\n→ [[【人】会哄人的军师]]\n\n---\n\n**创作体系**(6)　人物(5) · 风格(1) · Scene · 世界观 · 写作\n**技术知识**　代码 · 工具 · 参考\n**法律与规则**　合规 · 条文 · 标准\n**客观知识**(2)　数据事实(2)","x":-80,"y":-400,"width":530,"height":280},
+		{"id":"vol-13","type":"text","text":"**卷019 · 存在主义之孤独的住所**\n→ [[正文：存在主义之孤独的住所]]","x":-80,"y":-835,"width":530,"height":75},
+		{"id":"vol-12","type":"text","text":"**卷018 · 存在主义的死亡**\n→ [[正文：存在主义的死亡]]","x":-80,"y":-745,"width":530,"height":75},
+		{"id":"vol-11","type":"text","text":"**卷017 · 存在主义的无意义**\n→ [[正文：存在主义的无意义]]","x":-80,"y":-655,"width":530,"height":75},
+		{"id":"header","type":"text","text":"# 文境速览\n\n> **藏阁** 27 条　·　**成卷** 19 个　·　**典阁** 8 份","x":-120,"y":-1060,"width":1220,"height":109,"color":"#A6B8C4"},
+		{"id":"status-待发展","type":"text","text":"**待发展**　(3/9)\n\n- [[【摘】 Prompt该退环境了，未来属于Loop Engineering。]]\n- [[【摘】 一人运营20个AI账号，年收入317万]]\n- [[【摘】一站式创作平台 Agnes AI]]","x":600,"y":-840,"width":480,"height":160,"color":"#C9B4A8"},
+		{"id":"status-成卷","type":"text","text":"**成卷**　(3/6)\n\n- [[【对】自我认知讨论 — 结果定义论的三问三答]]\n- [[【念】AI协作双维度框架 v1]]\n- [[【念】AI学习路线 — 四门必跟课程]]","x":600,"y":-650,"width":480,"height":140,"color":"#AFC0AF"},
+		{"id":"status-待消化","type":"text","text":"**待消化**　(3/7)\n\n- [[【摘】AI让一部分人无班可上，又让另一部分人无班可下]]\n- [[【摘】为什么大事几分钟就能搞定，而小事却反复纠结]]\n- [[【摘】凡是人，总有取舍]]","x":605,"y":-480,"width":475,"height":140,"color":"#C9B0B0"}
+	],
+	"edges":[]
+}

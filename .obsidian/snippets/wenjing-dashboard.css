@@ -1,0 +1,218 @@
+/* 文境看板 CSS Snippet */
+/* 在 Obsidian Settings → Appearance → CSS snippets 中启用 */
+
+/* ===== 页面容器 ===== */
+.wj-dashboard {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* ===== 生命循环图 ===== */
+.wj-lifecycle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 0;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.wj-lifecycle .wj-node {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid #262a30;
+}
+.wj-lifecycle .wj-arrow {
+  color: #4a4f5c;
+  font-size: 14px;
+}
+.wj-node-dao  { color: #a78bfa; background: rgba(167,139,250,0.08); }
+.wj-node-jing { color: #60a5fa; background: rgba(96,165,250,0.08); }
+.wj-node-juan { color: #d4a853; background: rgba(212,168,83,0.08); }
+.wj-node-guizang { color: #f87171; background: rgba(248,113,113,0.06); }
+.wj-node-dian { color: #22d3ee; background: rgba(34,211,238,0.06); }
+
+.wj-tagline {
+  text-align: center;
+  font-size: 13px;
+  color: #6b7080;
+  margin-bottom: 28px;
+}
+.wj-tagline span { color: #d4a853; }
+
+/* ===== 卡片网格 ===== */
+.wj-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* ===== 卡片 ===== */
+.wj-card {
+  background: #15181d;
+  border: 1px solid #262a30;
+  border-radius: 10px;
+  padding: 20px;
+  transition: border-color 0.2s, background 0.2s;
+}
+.wj-card:hover {
+  border-color: #3a3e48;
+  background: #1c2026;
+}
+
+.wj-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #262a30;
+  font-size: 15px;
+  font-weight: 600;
+  color: #e0e3e8;
+}
+
+.wj-icon {
+  font-size: 16px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.wj-icon-dao  { background: rgba(167,139,250,0.15); color: #a78bfa; }
+.wj-icon-jing { background: rgba(96,165,250,0.15); color: #60a5fa; }
+.wj-icon-juan { background: rgba(212,168,83,0.15); color: #d4a853; }
+.wj-icon-inbox { background: rgba(74,222,128,0.12); color: #4ade80; }
+.wj-icon-dian { background: rgba(34,211,238,0.12); color: #22d3ee; }
+.wj-icon-guizang { background: rgba(248,113,113,0.10); color: #f87171; }
+
+.wj-card-badge {
+  margin-left: auto;
+  font-size: 11px;
+  color: #6b7080;
+  background: rgba(255,255,255,0.04);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+/* ===== 卡片内链接 ===== */
+.wj-card p { margin: 0; }
+.wj-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.wj-links a,
+.wj-links .internal-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  color: #c8ccd4 !important;
+  text-decoration: none !important;
+  font-size: 13px;
+  transition: background 0.15s, color 0.15s;
+}
+.wj-links a:hover,
+.wj-links .internal-link:hover {
+  background: rgba(255,255,255,0.04) !important;
+  color: #f0f2f5 !important;
+}
+
+.wj-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: inline-block;
+}
+.wj-dot-purple { background: #a78bfa; }
+.wj-dot-blue   { background: #60a5fa; }
+.wj-dot-gold   { background: #d4a853; }
+.wj-dot-green  { background: #4ade80; }
+.wj-dot-cyan   { background: #22d3ee; }
+.wj-dot-red    { background: #f87171; }
+
+.wj-muted {
+  color: #4a4f5c;
+  margin-left: auto;
+  font-size: 11px;
+}
+
+/* ===== 统计数字 ===== */
+.wj-stats {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+.wj-stat {
+  flex: 1;
+  text-align: center;
+  padding: 10px 4px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.02);
+}
+.wj-stat-num {
+  font-size: 22px;
+  font-weight: 700;
+  color: #e0e3e8;
+}
+.wj-stat-label {
+  font-size: 11px;
+  color: #6b7080;
+  margin-top: 2px;
+}
+
+/* ===== 指令标签 ===== */
+.wj-triggers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.wj-triggers code {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.04);
+  color: #6b7080;
+  border: 1px solid transparent;
+  transition: all 0.15s;
+}
+
+/* ===== 状态栏 ===== */
+.wj-status {
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: #15181d;
+  border: 1px solid #262a30;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  color: #6b7080;
+}
+.wj-status strong { color: #c8ccd4; }
+.wj-status-date {
+  margin-left: auto;
+  font-size: 12px;
+  color: #4a4f5c;
+}
+
+/* ===== 全宽卡片 ===== */
+.wj-card-full {
+  grid-column: 1 / -1;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 900px) {
+  .wj-grid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "wenjing-dashboard"
+  ]
+}
