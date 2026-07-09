@@ -14,3 +14,29 @@ desktop.ini
 
 # Trash
 .trash/
+
+# 个人文件（不入版本库）
+.workbuddy/
+今日文境 设定.md
+AGENTS.md
+
+# Agent SKILL（Hermes 专属，开发者本地维护）
+04 Agent入口/SKILL.md
+04 Agent入口/wenjing-protocol SKILL.md
+
+# 开发状态（个人 Current Context）
+06 文境开发（Development）/08 当前上下文(Current Context)/
+
+# 个人藏阁（Inbox 为个人知识库）
+02 养境（知识）/01 藏阁/01 Inbox/*.md
+02 养境（知识）/01 藏阁/01 Inbox/_capture_test/
+
+# 境·回溯（创作者过往文章）
+03 成卷（项目）/境·回溯/
+
+# 境·发布日志（个人修改版）
+03 成卷（项目）/境·发布日志/
+
+# 临时/生成文件
+**/output/
+**/temp_*
