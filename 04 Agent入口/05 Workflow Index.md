@@ -53,10 +53,10 @@ Agent 应立即退出 Workflow，并返回 Conversation Runtime，继续当前�
 
 进入 Capture Workflow 前，应依次读取：
 
-1. Capture Convention
-2. Knowledge Map Convention
+1. `10 Capture Convention.md`
+2. `12 Knowledge Map Convention.md`
 3. Knowledge Map
-4. Inbox Standard
+4. `11 Inbox Standard.md`
 
 Capture Convention 用于建立本次 Capture Pipeline。
 
