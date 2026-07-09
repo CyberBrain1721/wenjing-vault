@@ -43,3 +43,6 @@ AGENTS.md
 # 临时/生成文件
 **/output/
 **/temp_*
+
+# 大型二进制（不入版本库）
+**/Codex-Complete-Guide*.pdf
