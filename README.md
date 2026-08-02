@@ -1,6 +1,8 @@
 # 文境 · Wenjing
 
 > 一套协议驱动的 AI 协作创作系统（Creative Operating System），基于 Obsidian Vault 构建。
+>
+> 版本：v0.2.0（共创和开发版）
 
 文境不是写作软件，也不是内容模板。
 
