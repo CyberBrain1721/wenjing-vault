@@ -141,9 +141,9 @@ git clone https://github.com/CyberBrain1721/wenjing-vault.git
 
 ## 许可
 
-本仓库目前**未指定开源许可证**。
+本仓库以 **MIT License** 发布，与用户版 [`wenjing`](https://github.com/CyberBrain1721/wenjing) 保持一致。
 
-在作者明确选择许可证之前，代码与内容默认保留所有权利。
+你可以自由使用、修改、再分发本系统与配套 Skill，包括用于商业创作；唯一要求是保留版权与许可声明。许可证全文见 [LICENSE](./LICENSE)。
 
 ---
 
