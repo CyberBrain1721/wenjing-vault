@@ -33,6 +33,37 @@ Use this Skill when the user asks for any of the following:
 - 整理 / 分类 / 重构 / 归档 / 复盘
 - protocol-driven Obsidian collaboration
 
+## Obsidian 环境检测
+
+文境的本体是本地 Obsidian Vault。Agent 在与 Vault 交互前，应先确认宿主环境已安装 Obsidian。
+
+### 检测
+
+检查宿主环境是否已安装 Obsidian：
+
+- Windows：`%LOCALAPPDATA%\Obsidian\Obsidian.exe` 或开始菜单项
+- macOS：`/Applications/Obsidian.app`
+- Linux：`obsidian` 命令或 `/usr/bin/obsidian`
+- 或检测 `obsidian://` 协议是否可调用
+
+### 若本地未安装
+
+从 Obsidian 官网下载并安装：
+
+```text
+https://obsidian.md/download
+```
+
+- 优先使用系统包管理器（`brew install --cask obsidian` / `winget install Obsidian.Obsidian`）或官网安装包。
+- 若 Agent 运行环境无权执行安装，必须明确提示用户访问上述官方链接完成安装，不得静默跳过或假定已就绪。
+
+### 加载插件
+
+安装完成后，确保 Vault 启用 `Obsidian 插件清单.md` 所列社区插件：Startpage、HTML Viewer +、Select Folder、Editing Toolbar、Full Calendar、Style Settings、PDF +、Notebook Navigator。
+
+- 若插件未启用：进入 `设置 → 社区插件`，逐一启用；或直接以启用状态写入 `.obsidian/community-plugins.json`。
+- 仅在 Vault 首次初始化或创作者确认时执行此步，不要每次进入都重写插件配置。
+
 ## If The Vault Is Not Present
 
 If the user asks to download or install Wenjing and no local Vault path is available, clone:

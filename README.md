@@ -37,6 +37,8 @@
 
 ## 快速开始
 
+> 尚未安装 Obsidian？先从官网下载：<https://obsidian.md/download>（支持 Windows / macOS / Linux）。接入时智能体会自动检测：若本地缺失，会引导你安装并加载所需插件。
+
 ### 前置要求
 
 - [Obsidian](https://obsidian.md/)（推荐 1.4+，启用"属性（Properties）"功能）

@@ -6,6 +6,8 @@ Wenjing is a local-first Obsidian creative system. It is not bound to Codex, Wor
 
 ## Install / Use
 
+> The Agent will first verify Obsidian is installed locally (official download: https://obsidian.md/download). If absent, it guides installation and loads the community plugins listed in `Obsidian 插件清单.md`.
+
 An Agent that supports Skills should read:
 
 ```text
